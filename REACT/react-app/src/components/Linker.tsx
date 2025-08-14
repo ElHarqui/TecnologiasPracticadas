@@ -1,4 +1,5 @@
 import ImagenLinker from "./ImagenLinker";
+import "./Linker.css";
 interface interfaceLinker {
   Logo: string;
   Pagina: string;
@@ -10,7 +11,7 @@ function Linker(linker: interfaceLinker) {
   return (
     <div>
       <a href={Pagina} target="_blank" rel="noopener noreferrer">
-        <ImagenLinker fuente={Logo} />
+        <ImagenLinker fuente={Logo} className="imagen-linker-footer" />
         <p>{Mensaje}</p>
       </a>
     </div>

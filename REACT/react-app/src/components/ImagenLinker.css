@@ -1,0 +1,19 @@
+
+.imagen-linker-menu {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+
+.imagen-linker-footer {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.imagen-linker-menu img,
+.imagen-linker-footer img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}

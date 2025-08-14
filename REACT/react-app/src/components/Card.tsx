@@ -1,3 +1,4 @@
+import "./Card.css";
 import { ReactNode } from "react";
 interface bodyCard {
   children?: ReactNode;

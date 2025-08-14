@@ -1,6 +1,7 @@
 import Logo from "../assets/UNMSM.svg";
 import ImagenLinker from "./ImagenLinker";
 import { Link } from "react-router-dom";
+import "./Menu.css";
 
 function MenuButton({
   to,
@@ -24,7 +25,7 @@ function PrincipalMenu() {
   return (
     <div className="menu">
       <Link to="/">
-        <ImagenLinker fuente={Logo} />
+        <ImagenLinker fuente={Logo} className="imagen-linker-menu" />
       </Link>
       <nav>
         <ul className="menu-list">

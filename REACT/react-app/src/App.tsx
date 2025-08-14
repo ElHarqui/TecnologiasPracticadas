@@ -39,6 +39,7 @@ function App() {
         curso, se subira a GitHub. Terminara siendo una pagina de portafolio y
         dibujos dijitales.
       </p>
+
       <footer>
         <Linker
           Logo={FBLogo}

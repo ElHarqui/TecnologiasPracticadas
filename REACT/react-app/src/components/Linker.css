@@ -1,0 +1,16 @@
+.linker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.5em;
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+}
+.linker img {
+  width: 24px;
+  height: 24px;
+}
+.linker:hover {
+  color: #1976d2;
+}
