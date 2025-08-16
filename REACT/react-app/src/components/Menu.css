@@ -1,3 +1,8 @@
+.imagen-linker-menu {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
 .menu {
   display: flex;
   align-items: center;
@@ -25,16 +30,3 @@
 .menu-list button:hover {
   background: #f2f1f1;
 }
-/*
-.menu .imagen-linker-menu {
-	
-  width: 48px;
-  height: 48px;
-	display: inline-flex;
-	align-items: center;
-	gap: 0.5em;
-	margin: 0.5em;
-	text-decoration: none;
-	color: #333;
-	font-size: 1em;
-} */

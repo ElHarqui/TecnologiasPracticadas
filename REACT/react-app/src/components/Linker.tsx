@@ -1,13 +1,12 @@
 import ImagenLinker from "./ImagenLinker";
 import "./Linker.css";
-interface interfaceLinker {
+interface LinkerProps {
   Logo: string;
   Pagina: string;
   Mensaje?: string;
 }
 
-function Linker(linker: interfaceLinker) {
-  const { Logo, Pagina, Mensaje = "Visita mi perfil" } = linker;
+function Linker({ Logo, Pagina, Mensaje = "Visita mi perfil" }: LinkerProps) {
   return (
     <div>
       <a href={Pagina} target="_blank" rel="noopener noreferrer">

@@ -1,0 +1,34 @@
+.footer {
+  background: #f5f5f5;      /* Color de fondo claro */
+  padding: 1em 0;           /* Espaciado vertical */
+  text-align: center;       /* Centra el contenido */
+  border-top: 1px solid #d11010; /* Línea superior roja */
+  margin-top: 2em;          /* Espacio superior */
+}
+/* Estilo para el contenido del footer específicamente para los enlaces cuadno se pasa el ratón por encima */
+.footer .footer-content {
+  margin-top: 1em;          /* Espacio entre enlaces y texto final */
+  font-size: 0.95em;        /* Texto más pequeño */
+  color: #8507e6;              /* Color gris */
+}
+/* Estilo para los enlaces dentro del footer especificamente para los enlaces cuando no se está pasando el ratón por encima */
+.footer a {
+  color: #333;              /* Color de texto */
+  text-decoration: none;    /* Sin subrayado */
+  
+  margin: 0 0.5em;          /* Espacio entre enlaces */
+  font-size: 0.95em;        /* Texto más pequeño */
+}
+
+/* Estilo para los enlaces dentro del footer especificamente para el hover que es cuando el ratón pasa por encima */
+.footer a:hover {
+  color: #d11010;           /* Cambia el color al pasar el ratón */
+  text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
+/* Estilo para los párrafos dentro del footer espeficicamente  para los enlaces la parte del texto  sin subrayado */
+.footer p {
+  margin: 0.2em 0;          /* Espacio entre párrafos */
+  font-size: 0.95em;        /* Texto más pequeño */
+  color: #888;              /* Color gris */
+  text-align: center;       /* Centra el texto */
+}

@@ -1,12 +1,13 @@
 import "./Card.css";
 import { ReactNode } from "react";
-interface bodyCard {
+
+interface bodyCardProps {
   children?: ReactNode;
 }
 
-function Card(bodyCard: bodyCard) {
-  const { children } = bodyCard;
+function Card({ children }: bodyCardProps) {
   const width = { width: "18rem" };
+
   return (
     <div className="card" style={width}>
       <div className="card-body">
