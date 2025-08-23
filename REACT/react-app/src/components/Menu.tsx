@@ -38,16 +38,3 @@ function PrincipalMenu() {
   );
 }
 export default PrincipalMenu;
-/* <div className="news">
-        <a href="#">
-          NASA’s Webb Delivers Deepest Infrared Image of Universe Yet
-        </a>
-        <menu>
-          <li>
-            <button id="BotonGaleria">Galeria</button>
-          </li>
-          <li>
-            <button id="BotonProyectos">Proyectos</button>
-          </li>
-        </menu>
-      </div> */
