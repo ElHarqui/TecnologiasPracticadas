@@ -15,6 +15,7 @@
   height: auto;
   display: block;
   object-fit: cover;
+  flex-grow: 1;
 }
 
 .dibujo-card__title {
