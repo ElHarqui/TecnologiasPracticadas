@@ -1,5 +1,5 @@
-import Logo from "../assets/UNMSM.svg";
-import ImagenLinker from "./ImagenLinker";
+import Logo from "@assets/UNMSM.svg";
+import ImagenLinker from "../ImagenLinker/ImagenLinker";
 import { Link } from "react-router-dom";
 import "./Menu.css";
 

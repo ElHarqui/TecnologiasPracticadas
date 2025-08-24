@@ -1,4 +1,4 @@
-import ImagenLinker from "./ImagenLinker";
+import ImagenLinker from "../ImagenLinker/ImagenLinker";
 import "./Linker.css";
 interface LinkerProps {
   Logo: string;

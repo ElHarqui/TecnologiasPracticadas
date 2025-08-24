@@ -1,0 +1,61 @@
+.dibujos-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  color: #fff;
+  background-color: #121212;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dibujos-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #ffcc00;
+}
+
+.dibujos-seccion {
+  margin-bottom: 40px;
+}
+
+.dibujos-seccion h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.dibujos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.dibujo-item {
+  background: #1e1e1e;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dibujo-item:hover {
+  transform: scale(1.05);
+  background: #252525;
+}
+
+.dibujo-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.dibujo-titulo {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #ccc;
+}

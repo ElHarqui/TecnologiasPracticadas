@@ -1,7 +1,7 @@
-import FBLogo from "../assets/facebook.svg";
-import GitHubLogo from "../assets/github-mark.svg";
-import GmailLogo from "../assets/gmail.svg";
-import Linker from "./Linker";
+import FBLogo from "@assets/facebook.svg";
+import GitHubLogo from "@assets/github-mark.svg";
+import GmailLogo from "@assets/gmail.svg";
+import Linker from "../Linker/Linker";
 import "./Footer.css";
 function FooterBody() {
   return (

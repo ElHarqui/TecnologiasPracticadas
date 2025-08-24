@@ -1,17 +1,22 @@
+// importando librerias
 import { Routes, Route } from "react-router-dom";
+import { driver } from "driver.js";
+import "driver.js/dist/driver.css";
+import "./services/App.css";
+
+// importando componentes
 import PrincipalMenu from "./components/Menu";
 import Footer from "./components/Footer";
+
+// importando paginas
 import Inicio from "./pages/inicio";
 import Dibujos from "./pages/dibujos";
 import Proyectos from "./pages/proyectos";
-import "./services/App.css";
-
-import { driver } from "driver.js";
-import "driver.js/dist/driver.css";
 
 function startTour() {
   const driverObj = driver({
     showProgress: true,
+    popoverClass: "driverjs-theme",
     showButtons: ["next", "previous", "close"],
     steps: [
       {
